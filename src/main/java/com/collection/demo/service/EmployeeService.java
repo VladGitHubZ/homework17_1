@@ -2,6 +2,7 @@ package com.collection.demo.service;
 
 import com.collection.demo.model.Employee;
 
+import java.util.Collection;
 import java.util.List;
 
 public interface EmployeeService {
@@ -9,5 +10,5 @@ public interface EmployeeService {
     Employee removeEmployee(String firstName, String lastName);
     Employee findEmployee(String firstName, String lastName);
 
-    List<Employee> getAllEmployees();
+    Collection<Employee> getAllEmployees();
 }
